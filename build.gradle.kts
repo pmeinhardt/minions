@@ -18,4 +18,5 @@ application {
 
 dependencies {
     implementation("ai.koog:koog-agents:0.3.0")
+    implementation("org.slf4j:slf4j-simple:2.0.17")
 }
