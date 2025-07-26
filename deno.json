@@ -1,6 +1,7 @@
 {
   "tasks": {
-    "dev": "deno run --watch main.ts"
+    "start": "deno run --allow-env --allow-read=.env --allow-run=docker --allow-net=api.anthropic.com:443 main.ts"
+
   },
   "imports": {
     "@langchain/anthropic": "npm:@langchain/anthropic@^0.3.24",
